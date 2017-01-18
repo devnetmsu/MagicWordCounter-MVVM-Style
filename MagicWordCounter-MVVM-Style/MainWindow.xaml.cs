@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace MagicWordCounter_MVVM_Style
+namespace MagicWordCounter.WPF
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

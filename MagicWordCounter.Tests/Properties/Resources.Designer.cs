@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MagicWordCounter.WPF.Properties {
+namespace MagicWordCounter.Tests.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace MagicWordCounter.WPF.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MagicWordCounter.WPF.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MagicWordCounter.Tests.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -57,6 +57,15 @@ namespace MagicWordCounter.WPF.Properties {
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &quot;I&apos;m dreaming!&quot;, Stanley though to himself.  &quot;This is all a dream!&quot;  The fact was that he was not in fact dreaming.  Stanley was awake right now as he had ever been in his life..
+        /// </summary>
+        internal static string TestString {
+            get {
+                return ResourceManager.GetString("TestString", resourceCulture);
             }
         }
     }
