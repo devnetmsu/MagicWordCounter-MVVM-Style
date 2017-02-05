@@ -11,8 +11,10 @@ namespace MagicWordCounter
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Magic Word Counter's Magic Console");
-            Console.WriteLine("Type 'exit' to exit");
+            Console.WriteLine("Magic Word Counter");
+            Console.WriteLine("The Magic Console");
+            Console.WriteLine("");
+            Console.WriteLine("Enter your text to count it, or enter 'exit' to exit");
             while (true)
             {
                 var line = Console.ReadLine();
