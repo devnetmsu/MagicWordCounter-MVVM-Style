@@ -164,7 +164,7 @@ namespace MagicWordCounter.Core
             // Count words, taking into account article adjective settings
             foreach (var word in textToCount.Split(' '))
             {
-                if (!string.IsNullOrEmpty(word) && (!isArticle(word) || !ExcludeArticles))
+                if (!string.IsNullOrEmpty(word) && (!isArticle(word.Trim('\"')) || !ExcludeArticles))
                 {
                     wordCount += 1;
                 }
